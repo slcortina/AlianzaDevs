@@ -1,0 +1,54 @@
+h1 {
+  color: white;
+  text-align: center;
+  background-color: rgb(39, 37, 167);
+}
+
+.gameTitle {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Crea columnas responsive */
+  gap: 5px; /* Espaciado entre elementos */
+  text-align: center;
+}
+.form {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Crea columnas responsive */
+  gap: 5px; /* Espaciado entre elementos */
+  text-align: center;
+}
+
+.imagen {
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+
+/* Estilo para el contenedor */
+#container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Crea columnas responsive */
+  gap: 10px; /* Espaciado entre elementos */
+}
+
+/* Estilo para cada cuadro */
+.box {
+  background-color: #e60b16;
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  flex: 1 1 50px; /* Crece, se contrae y establece un ancho mínimo */
+  font-weight: bold;
+  text-align: center; /* Alinea el texto a la izquierda */
+  align-self: start; /* Alinea el elemento en la parte superior */
+}
+
+.boxDone {
+  background-color: #0be630;
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  flex: 1 1 50px; /* Crece, se contrae y establece un ancho mínimo */
+  font-weight: bold;
+  text-align: center; /* Alinea el texto a la izquierda */
+  align-self: start; /* Alinea el elemento en la parte superior */
+}
