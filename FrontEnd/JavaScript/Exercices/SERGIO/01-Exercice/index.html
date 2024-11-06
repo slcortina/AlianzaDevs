@@ -1,0 +1,41 @@
+<header>
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li>Nosotros</li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <label class="selection" for="select">Seleccione un tema</label>
+  <select class="selection" id="select">
+    <option value="blanco">Blanco</option>
+    <option value="negro">Negro</option>
+  </select>
+  <small class="selection" id="tema" style="display: none"
+    >Tema seleccionado :</small
+  >
+</main>
+<footer>
+  <small class="selection" style="display: block">Copyrigth 2024</small>
+</footer>
+<script>
+  const select = document.querySelector("select");
+
+  select.onchange = function () {
+    let value = select.value;
+    let tema = document.getElementById("tema");
+
+    document.body.style.backgroundColor =
+      value === "blanco" ? "white" : "black";
+    const tales = (document.body.style.color =
+      value === "blanco" ? "black" : "white");
+
+    if (value) {
+      tema.textContent = "Tema seleccionado  " + value;
+      tema.style.display = "block";
+    } else {
+      tema.style.display = "none";
+    }
+  };
+</script>
