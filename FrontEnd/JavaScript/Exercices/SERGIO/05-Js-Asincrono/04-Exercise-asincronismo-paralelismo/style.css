@@ -1,0 +1,15 @@
+.Imagenes {
+  width: 280px;
+  height: 400px;
+}
+
+.Articulo {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.mainCharacters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 5px;
+}
