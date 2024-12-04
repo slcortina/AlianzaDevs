@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Página Semántica</title>
+    <meta
+      name="description"
+      content="Descripción breve de la página para SEO y accesibilidad."
+    />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <!-- Encabezado de la página -->
+    <header>
+      <h1>Nombre de la Página</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#about">Acerca de</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Contenido principal de la página -->
+    <main>
+      <!-- Sección de bienvenida -->
+      <section id="home">
+        <h2>Bienvenidos</h2>
+        <p>
+          Bienvenido a nuestra página web. Aquí encontrarás información sobre
+          nosotros y nuestros servicios.
+        </p>
+      </section>
+
+      <!-- Sección sobre nosotros -->
+      <section id="about">
+        <h2>Acerca de Nosotros</h2>
+        <p>Descripción de la empresa, su historia y valores.</p>
+        <article>
+          <h3>Nuestra Historia</h3>
+          <p>Relato sobre el inicio y evolución de la empresa.</p>
+        </article>
+        <article>
+          <h3>Nuestro Equipo</h3>
+          <p>Información sobre el equipo que conforma la empresa.</p>
+        </article>
+      </section>
+
+      <!-- Sección de servicios -->
+      <section id="services">
+        <h2>Servicios</h2>
+        <article>
+          <h3>Servicio 1</h3>
+          <p>Descripción del primer servicio.</p>
+        </article>
+        <article>
+          <h3>Servicio 2</h3>
+          <p>Descripción del segundo servicio.</p>
+        </article>
+        <article>
+          <h3>Servicio 3</h3>
+          <p>Descripción del tercer servicio.</p>
+        </article>
+      </section>
+    </main>
+
+    <!-- Sección de contacto -->
+    <aside id="contact">
+      <h2>Contacto</h2>
+      <address>
+        <p>
+          Email: <a href="mailto:contacto@ejemplo.com">contacto@ejemplo.com</a>
+        </p>
+        <p>Teléfono: +1 234 567 890</p>
+      </address>
+      <form>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </aside>
+
+    <!-- Pie de página -->
+    <footer>
+      <p>&copy; 2024 Nombre de la Empresa. Todos los derechos reservados.</p>
+      <nav>
+        <ul>
+          <li><a href="#privacy">Política de Privacidad</a></li>
+          <li><a href="#terms">Términos de Servicio</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
