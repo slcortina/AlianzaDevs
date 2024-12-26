@@ -1,0 +1,30 @@
+[
+  {
+    "Nombre": "Goku",
+    "Edad": "31",
+    "Peleas": [
+      {
+        "Planeta": "Tierra",
+        "Vs": "Freezer"
+      },
+      {
+        "Planeta": "Nameku",
+        "Vs": "Majinbu"
+      }
+    ]
+  },
+  {
+    "Nombre": "Vegeta",
+    "Edad": "30",
+    "Peleas": [
+      {
+        "Planeta": "Tierra",
+        "Vs": "Freezer"
+      },
+      {
+        "Planeta": "Nameku",
+        "Vs": "Majinbu"
+      }
+    ]
+  }
+]
